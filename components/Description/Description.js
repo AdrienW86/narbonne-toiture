@@ -23,7 +23,7 @@ export default function Description() {
           <div className={styles.card}>
             <Image          
               src="/image1.jpg"
-              alt="Vue pittoresque et charmante du Château de Projan entouré de collines"
+              alt="un ouvrier en train de travailler sur un toit"
               width={320}
               height={250}
               sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -38,7 +38,7 @@ export default function Description() {
           <div className={styles.card}>
             <Image          
               src="/image2.jpg"
-              alt="Vue pittoresque et charmante du Château de Projan entouré de collines"
+              alt="toiture"
               width={320}
               height={250}
               sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -54,7 +54,7 @@ export default function Description() {
           <div className={styles.card}>
             <Image          
               src="/image3.jpg"
-              alt="Vue pittoresque et charmante du Château de Projan entouré de collines"
+              alt="chnatier en cours"
               width={320}
               height={250}
               sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
