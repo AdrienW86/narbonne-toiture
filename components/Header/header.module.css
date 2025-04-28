@@ -1,15 +1,13 @@
 .header {
     z-index: 5;
-    height: 15vh;
+    height: 17vh;
     width: 100%;
-    color: rgb(0,191,99);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     font-weight: bold;
-    color: rgb(82,113,255);
     background-color: rgb(37,47,57);
     position: relative; 
 }
@@ -32,7 +30,7 @@
 
 .hamburger {
     position: absolute;
-    top: 6vh;
+    top: 7vh;
     right: 30px;
     width: 3vh;
     height: 3vh;
@@ -81,14 +79,14 @@
     
 .open:hover .line, .close:hover .line {
     cursor: pointer;
-    background-color: rgb(204,99,51)
+    background-color: rgb(204,99,51);
 }
 
 .menu {
     position: absolute;
     z-index: 20;
-    top: 15vh;
-    height: 350px;
+    top: 17vh;
+    height: 300px;
     width: 100%;
     list-style: none;
     background-color: #ffffff;
@@ -100,7 +98,7 @@
 }
 
 .li {
-    color: rgb(37,47,57);;
+    color: rgb(37,47,57);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,7 +117,7 @@
 
 .logo {
     position: absolute;
-    top: 5px;
+    top: 1vh;
     left: 20px;
     display: flex;
     flex-direction: column;

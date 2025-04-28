@@ -7,8 +7,7 @@
   
 .carouselInner {
     position: relative;
-    width: 100%;
-    
+    width: 100%;   
 }
   
 .carouselItem {
@@ -27,7 +26,6 @@
   
 .btnContainer {
     position: absolute;
-    color: rgb(0,191,99); 
     z-index: 2;
     width: 100%;
     bottom: 100px;
@@ -38,26 +36,26 @@
 .btn, .btn2 {
     padding: 8px;
     border-radius: 16px;
-    border: 1px solid rgb(0,191,99);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(204,99,51);
     color: (0,191,99); 
     width: 160px;
-    font-size: 16px;
+    font-size: 1.2em;
     text-align: center;
-    font-weight: bold;
+    font-weight: lighter;
+    color: white;
     transition: .4s ease-in-out;
 }
 
 .btn2 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0,191,99); 
+    color: rgb(204,99,51);
+    background-color: rgb(255, 255, 255); 
 }
 
 .btn:hover {
     cursor: pointer;
     opacity: 1;
     color: white;
-    background-color: rgb(0,191,99); 
+    background-color: rgb(204,99,51); 
     
 }
 
@@ -65,11 +63,21 @@
     cursor: pointer;
     opacity: 1;
     color: white;
-    background-color: rgb(1, 163, 85);   
+    background-color: rgb(204,99,51);  
 }
 
 .image {
     position: absolute;
     z-index: 2;
     right: 2px
+}
+
+.p {
+    position: absolute; 
+    text-align: center;
+    font-size: 1.2em;
+    width: 70%;
+    left: 15%;
+    top: 20vh;
+    z-index: 3;
 }

@@ -9,7 +9,7 @@ const oswald = Oswald({
 
 export const metadata = {
   title: 'Narbonne Toiture',
-  description: "Elite Couverture – Spécialiste en couverture et peinture dans le 66. Interventions rapides et travaux de qualité dans tout le département des Pyrénées-Orientales. Toitures, façades, intérieurs : votre expert local.",
+  description: "Narbonne Toiture – Spécialiste de la couverture, rénovation et entretien de toitures à Narbonne et ses environs. Intervention rapide, travail de qualité et conseils personnalisés pour protéger votre habitation.",
 };
 
 export default function RootLayout({ children }) {

@@ -5,9 +5,9 @@ import styles from './map.module.css';
 
 export default function GoogleMap() {
   const address = {
-    name: "Elite Couverture",
-    email: "klenngurtner@gmail.com",
-    phone: "06 98 14 42 22",
+    name: "Narbonne Toiture",
+    email: "ortiz@gmail.com",
+    phone: "06 69 99 93 57",
     fullAddress: "Pyrénées Orientales",
   };
 
@@ -33,8 +33,7 @@ export default function GoogleMap() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div>
-     
+      </div>     
     </div>
   );
 }

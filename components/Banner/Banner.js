@@ -15,9 +15,6 @@ const images = [
   '/image5.jpg',
   '/image6.jpg',
   '/image7.jpg',
-  '/image8.jpg',
-  '/image9.jpg',
-  '/image10.jpg',
 ];
 
 export default function Carousel() {
@@ -36,6 +33,7 @@ export default function Carousel() {
 
   return (
     <div className={styles.carousel} id="carouselExampleFade">
+      <p className={styles.p}> Expert en nettoyage, isolation et rénovation de toiture pour votre confort et sécurité. </p>
       <Image          
             src="/garantie.png"
             alt="garantie decenale"
@@ -59,6 +57,7 @@ export default function Carousel() {
             > 
               Devis gratuit
             </motion.a>
+            
             <motion.a 
               className={styles.btn2} 
               href="/pictures"
@@ -71,7 +70,7 @@ export default function Carousel() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.3 }}
             > 
-              Nos réalisations 
+              Réalisations 
             </motion.a>
            
         </div>

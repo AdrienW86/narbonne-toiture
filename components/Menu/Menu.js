@@ -4,46 +4,31 @@ import styles from './menu.module.css'
 export default function Menu() {
   return (
     <section className={styles.container}>
-        <h1 className={styles.title}> Le déroulement d’une couverture de toit avec Elite Couverture </h1>
-            <p className={styles.p}> Chez Elite Couverture, nous mettons notre expertise au service de 
-                vos projets de toiture, qu’il s’agisse d’une construction neuve ou 
-                d’une rénovation. Chaque chantier est réalisé avec rigueur, transparence 
-                et un souci constant de la qualité. Voici comment se déroule une couverture 
-                de toit avec notre équipe.
-            </p>
-        <h2 className={styles.h2}> 1. Évaluation et diagnostic </h2>
-            <p className={styles.p}> Tout commence par une visite technique gratuite sur site. Nous analysons l’état
-                de votre toiture ou les besoins liés à votre construction, puis nous vous conseillons
-                sur les matériaux les plus adaptés : tuiles, ardoises, zinc, bac acier, etc. 
-                Vous recevez ensuite un devis clair et détaillé.
-            </p>
-        <h2 className={styles.h2}> 2. Préparation du chantier </h2>
-            <p className={styles.p}> Avant de commencer les travaux, nous sécurisons la zone d’intervention pour garantir 
-                la sécurité des occupants et de notre équipe. L’échafaudage est mis en place dans le 
-                respect des normes en vigueur.
-            </p>
-        <h2 className={styles.h2}> 3. Dépose de l’ancienne couverture (si nécessaire)</h2>
-            <p className={styles.p}> En cas de rénovation, nous procédons au retrait de l’ancienne couverture avec soin, 
-                en triant les matériaux pour respecter les normes environnementales.
-            </p>
-        <h2 className={styles.h2} > 4. Pose de la nouvelle couverture </h2>
-            <ul className={styles.ul}> Nous installons ensuite la nouvelle toiture dans les règles de l’art :</ul>
-                <li className={styles.li}> Pose de l’écran sous-toiture pour assurer l’étanchéité à l’eau et au vent. </li>
-                <li className={styles.li}> Mise en place des liteaux ou voliges selon le type de couverture.</li>
-                <li className={styles.li}> Pose des matériaux de couverture avec une attention particulière aux finitions et à l’alignement. </li>
-        <h2 className={styles.h2}> 5. Étanchéité et finitions </h2>
-            <p className={styles.p}> Nous veillons à l’étanchéité parfaite de la toiture, notamment autour des cheminées, 
-                fenêtres de toit et raccords. Les gouttières et systèmes d’évacuation sont également 
-                installés ou remplacés si nécessaire.
-            </p>
-        <h2 className={styles.h2}> 6. Nettoyage et réception du chantier </h2>
-            <p className={styles.p}> Une fois les travaux terminés, nous nettoyons entièrement la zone de chantier. 
-                Une dernière vérification est réalisée en votre présence pour valider la qualité 
-                des travaux et vous remettre la garantie décennale.
-            </p>
-            <p className={styles.p}>Elite Couverture, c’est le choix d’un travail soigné, durable et conforme aux normes. 
-                Contactez-nous dès aujourd’hui pour une toiture solide, esthétique et parfaitement étanche. 
-            </p>
+        <h1 className={styles.title}> Les étapes d’une couverture de toit avec Narbonne Toiture </h1>
+            <p className={styles.p}> Chez Narbonne Toiture, nous mettons tout notre savoir-faire au service de vos projets de couverture, que ce soit pour une construction neuve ou une rénovation. Chaque chantier est conduit avec sérieux, précision et respect des délais. Découvrez notre méthode de travail. </p>
+        
+        <h2 className={styles.h2}> 1. Analyse de votre toiture et conseils personnalisés </h2>
+            <p className={styles.p}> Nous réalisons une première visite gratuite pour évaluer l’état de votre toit ou définir les besoins de votre projet. Nous vous orientons vers les matériaux les mieux adaptés à votre situation : tuiles, ardoises, bac acier, zinc... Un devis clair et détaillé vous est ensuite remis. </p>
+
+        <h2 className={styles.h2}> 2. Préparation sécurisée du chantier </h2>
+            <p className={styles.p}> Avant tout début d’intervention, nous sécurisons intégralement la zone de travail. L’installation des échafaudages est réalisée dans le strict respect des normes de sécurité en vigueur. </p>
+
+        <h2 className={styles.h2}> 3. Retrait de l'ancienne toiture (en rénovation) </h2>
+            <p className={styles.p}> Lorsqu’il s'agit d'une rénovation, nous procédons à la dépose soigneuse de l’ancienne couverture. Les matériaux retirés sont triés et traités dans le respect des règles environnementales. </p>
+
+        <h2 className={styles.h2}> 4. Installation de la nouvelle couverture </h2>
+            <ul className={styles.ul}> Nous assurons ensuite la pose de votre nouvelle toiture avec minutie :</ul>
+                <li className={styles.li}> Mise en place d'un écran sous-toiture pour protéger contre l'humidité et le vent. </li>
+                <li className={styles.li}> Fixation des liteaux ou des voliges suivant le type de couverture choisi. </li>
+                <li className={styles.li}> Pose des éléments de couverture avec un soin particulier apporté aux finitions et à l'esthétique. </li>
+
+        <h2 className={styles.h2}> 5. Étanchéité et finitions soignées </h2>
+            <p className={styles.p}> Nous garantissons une étanchéité parfaite autour des cheminées, des lucarnes et des fenêtres de toit. Nous installons également les gouttières et tous les dispositifs d’évacuation des eaux pluviales. </p>
+
+        <h2 className={styles.h2}> 6. Nettoyage du chantier et validation finale </h2>
+            <p className={styles.p}> Après l'achèvement des travaux, nous nettoyons soigneusement la zone d’intervention. Un contrôle qualité est effectué en votre présence pour valider la bonne réalisation du chantier et vous remettre la garantie décennale. </p>
+            
+            <p className={styles.p}> Avec Narbonne Toiture, vous choisissez la sécurité, la qualité et la durabilité pour votre toiture. Faites appel à notre équipe pour un résultat à la hauteur de vos attentes. </p>
     </section>
   )
 }
