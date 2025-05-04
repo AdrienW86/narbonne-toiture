@@ -33,14 +33,14 @@ export default function Carousel() {
   return (
     <div className={styles.carousel} id="carouselExampleFade">
       <p className={styles.p}> Expert en nettoyage, isolation et rénovation de toiture pour votre confort et sécurité. </p>
-      <Image          
-            src="/garantie.png"
-            alt="garantie decenale"
-            width={140}
-            height={140}
-            sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className={styles.image}
-          />
+        <Image          
+          src="/garantie.png"
+          alt="garantie decenale"
+          width={140}
+          height={140}
+          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className={styles.image}
+        />
         <div className={styles.btnContainer}>
             <motion.a 
               className={styles.btn} 

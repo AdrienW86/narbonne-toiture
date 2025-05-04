@@ -75,9 +75,9 @@
 .p {
     position: absolute; 
     text-align: center;
-    font-size: 1.2em;
-    width: 70%;
-    left: 15%;
+    font-size: 1.4em;
+    width: 300px;
+    left: calc(50% - 150px);
     top: 20vh;
     z-index: 3;
 }

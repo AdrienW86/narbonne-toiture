@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import CallButton from '../CallButton/CallButton';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styles from './header.module.css'
@@ -35,7 +36,7 @@ export default function Header() {
           sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
       </Link>   
-     
+      <CallButton />
       <div className={styles.buttonBox}> 
         <button className={`${styles.hamburger} ${isMenuOpen ? styles.open : styles.close}`} onClick={handleMenuToggle} aria-label="hamburger button">
             <span className={styles.line}> </span>

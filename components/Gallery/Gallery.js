@@ -18,13 +18,11 @@ export default function Gallery() {
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
 
-  // Ouvrir la lightbox
   const openLightbox = (imageSrc) => {
     setCurrentImage(imageSrc);
     setIsOpen(true);
   };
 
-  // Fermer la lightbox
   const closeLightbox = () => {
     setIsOpen(false);
   };
@@ -45,7 +43,6 @@ export default function Gallery() {
         ))}
       </div>
 
-      {/* Lightbox */}
       {isOpen && (
         <div className={styles.lightboxOverlay} onClick={closeLightbox}>
           <div className={styles.lightboxContent}>
@@ -56,5 +53,3 @@ export default function Gallery() {
     </div>
   );
 }
-
-
