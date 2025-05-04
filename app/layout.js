@@ -1,5 +1,6 @@
-import './globals.css'
+import './globals.css';
 import { Oswald } from 'next/font/google';
+import Script from 'next/script';
 
 const oswald = Oswald({
   subsets: ['latin'],
@@ -21,12 +22,29 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
           rel="stylesheet"
         />
+
+        {/* Google Tag Manager (gtag.js) */}
+        <Script 
+          strategy="afterInteractive" 
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17052567926" 
+          async 
+        />
+        <Script
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'AW-17052567926');
+            `,
+          }}
+        />
       </head>
       <body className={oswald.className}>
-
         {children}
       </body>
     </html>
   );
 }
-
