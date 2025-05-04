@@ -8,12 +8,12 @@ export default function GoogleMap() {
     name: "Narbonne Toiture",
     email: "ortiz@gmail.com",
     phone: "06 69 99 93 57",
-    fullAddress: "Narbonne",
+    fullAddress: "Narbonne et alentours",
   };
 
   return (
     <div className={styles.mapWrapper}>
-       <div className={styles.addressDetails}>
+      <div className={styles.addressDetails}>
         <h2 className={styles.name}>{address.name}</h2>
         <p className={styles.span}>
           <strong 
