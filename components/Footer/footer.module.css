@@ -1,6 +1,6 @@
 .footer {
     z-index: 5;
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: rgb(37,47,57);
 }
@@ -21,6 +21,7 @@
 }
 
 .txt {
+    color: white;
     margin-top: 10px;
     font-weight: bold;
     width: 100%;
@@ -28,10 +29,11 @@
 }
 
 .link {
+    color: white;
     width: 100%;
     display: flex;
     font-weight: bold;
-    margin: 10px;
+    margin-bottom: 15px;
     justify-content: center;
 }
 
@@ -43,4 +45,18 @@
 
 .codev:hover {
     text-decoration: underline;
+}
+
+.socialTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.p {
+    margin: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
 }

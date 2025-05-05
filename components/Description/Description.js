@@ -22,7 +22,7 @@ export default function Description() {
         <section className={styles.localisation}>
           <div className={styles.card}>
             <Image          
-              src="/image1.jpg"
+              src="/image10.jpg"
               alt="un ouvrier en train de travailler sur un toit"
               width={320}
               height={250}
@@ -37,7 +37,7 @@ export default function Description() {
 
           <div className={styles.card}>
             <Image          
-              src="/image2.jpg"
+              src="/image1.jpg"
               alt="toiture"
               width={320}
               height={250}
@@ -53,7 +53,7 @@ export default function Description() {
 
           <div className={styles.card}>
             <Image          
-              src="/image3.jpg"
+              src="/image12.jpg"
               alt="chnatier en cours"
               width={320}
               height={250}
@@ -66,8 +66,6 @@ export default function Description() {
             </div>
           </div>       
         </section>
-
-      
       </section>
   );
 }
