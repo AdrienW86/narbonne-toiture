@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import styles from './SectionImage.module.css'; // ou bien tu peux utiliser Tailwind ou inline
+import styles from './sectionImage.module.css'
 
-export default function SectionImage({ src, alt = '', width = 400, height = 250 }) {
+export default function SectionImage({ src, alt, width = 400, height = 250 }) {
   if (!src) return null;
 
   return (
