@@ -54,7 +54,7 @@ export default function Description() {
           <div className={styles.card}>
             <Image          
               src="/image12.jpg"
-              alt="chnatier en cours"
+              alt="chantier en cours"
               width={320}
               height={250}
               sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -62,7 +62,7 @@ export default function Description() {
             />
             <div className={styles.cardTxt}>
             <h3 className={styles.h3}> Protection durable toiture</h3>
-            <p> Traitement Hydrofuge et Anti-Mousse </p>
+            <p> Traitement Hydrofuge et Anti-Mousse pour une protection durable et un aspect impeccable de votre toiture.</p>
             </div>
           </div>       
         </section>
