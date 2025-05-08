@@ -73,6 +73,7 @@
 }
 
 .p {
+    color: white;
     position: absolute; 
     text-align: center;
     font-size: 1.4em;

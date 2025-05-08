@@ -29,7 +29,7 @@ export default function Description() {
             />
             <div className={styles.cardTxt}>
             <h3 className={styles.h3}> Nettoyage de Toiture</h3>
-            <p> Service professionnel pour nettoyer et entretenir votre toiture efficacement et durablement. </p>
+            <p className={styles.pCard}> Service professionnel pour nettoyer et entretenir votre toiture efficacement et durablement. </p>
             </div>
           </div>       
           <div className={styles.card}>
@@ -43,7 +43,7 @@ export default function Description() {
             />
             <div className={styles.cardTxt}>
             <h3 className={styles.h3}> Isolation des Combles </h3>
-            <p> 
+            <p className={styles.pCard}>
             Améliorez votre confort avec notre service d'isolation des combles pour une meilleure efficacité énergétique. </p>
             </div>
           </div>       
@@ -58,7 +58,7 @@ export default function Description() {
             />
             <div className={styles.cardTxt}>
             <h3 className={styles.h3}> Protection durable toiture</h3>
-            <p> Traitement hydrofuge et anti-mousse pour une protection durable et un aspect impeccable de votre toiture.</p>
+            <p className={styles.pCard}> Traitement hydrofuge et anti-mousse pour une protection durable et un aspect impeccable de votre toiture.</p>
             </div>
           </div>       
         </section>
