@@ -10,14 +10,14 @@ export default function Menu() {
         
         <h2 className={styles.h2}> 1. Première rencontre et analyse du projet </h2>
             <SectionImage
-                src="/peinture1.png"
+                src="/peinture1.avif"
                 alt="Analyse des surfaces"
             />
             <p className={styles.p}> Tout commence par une visite technique de votre bien. Nous inspectons l'état des surfaces, vous conseillons sur les meilleures solutions (peinture résistante, hydrofuge, décorative, etc.) et vous proposons un devis clair et détaillé. </p>
 
         <h2 className={styles.h2}> 2. Préparation minutieuse des supports </h2>
             <SectionImage
-                src="/peinture2.png"
+                src="/peinture2.avif"
                 alt="préparation des surfaces"
             />
             <ul className={styles.ul}> Avant toute application, nous nous assurons d’une préparation irréprochable :</ul>
@@ -28,21 +28,21 @@ export default function Menu() {
 
         <h2 className={styles.h2}> 3. Mise en peinture </h2>
             <SectionImage
-                src="/peinture3.png"
+                src="/peinture3.avif"
                 alt="Mise en peinture"
             />
             <p className={styles.p}> Nous appliquons la peinture avec précision, en respectant les temps de séchage et en multipliant les couches si nécessaire pour garantir une finition homogène, aussi bien en intérieur qu’en extérieur. </p>
 
         <h2 className={styles.h2}> 4. Détails et finitions </h2>
             <SectionImage
-                src="/peinture4.png"
+                src="/peinture4.avif"
                 alt="Finitionse"
             />
             <p className={styles.p}> Nous apportons un soin particulier aux détails : angles parfaits, teintes uniformes, finitions impeccables. Chaque élément est inspecté pour un rendu haut de gamme. </p>
 
         <h2 className={styles.h2}> 5. Nettoyage complet et remise des lieux </h2>
             <SectionImage
-                src="/peinture5.png"
+                src="/peinture5.avif"
                 alt="Nettoyage"
             />
             <p className={styles.p}> Après travaux, nous procédons au nettoyage intégral du chantier : retrait des protections, évacuation des déchets, et remise en état des lieux. La réception du chantier se fait en votre présence pour valider ensemble la qualité de notre intervention. </p>

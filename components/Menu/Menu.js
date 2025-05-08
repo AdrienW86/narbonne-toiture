@@ -12,7 +12,7 @@ export default function Menu() {
 
       <h2 className={styles.h2}>1. Analyse de votre toiture et conseils personnalisés</h2>
       <SectionImage
-        src="/toiture1.png"
+        src="/toiture1.avif"
         alt="Analyse de la toiture"
       />
       <p className={styles.p}>
@@ -21,7 +21,7 @@ export default function Menu() {
 
       <h2 className={styles.h2}>2. Préparation sécurisée du chantier</h2>
       <SectionImage
-        src="/toiture2.png"
+        src="/toiture2.avif"
         alt="Préparation sécurisée"
       />
       <p className={styles.p}>
@@ -30,7 +30,7 @@ export default function Menu() {
 
       <h2 className={styles.h2}>3. Retrait de l'ancienne toiture (en rénovation)</h2>
       <SectionImage
-        src="/toiture3.png"
+        src="/toiture3.avif"
         alt="Dépose de l’ancienne toiture"
       />
       <p className={styles.p}>
@@ -39,7 +39,7 @@ export default function Menu() {
 
       <h2 className={styles.h2}>4. Installation de la nouvelle couverture</h2>
       <SectionImage
-        src="/toiture4.png"
+        src="/toiture4.avif"
         alt="Installation de la nouvelle couverture"
       />
       <ul className={styles.ul}>
@@ -50,7 +50,7 @@ export default function Menu() {
 
       <h2 className={styles.h2}>5. Étanchéité et finitions soignées</h2>
       <SectionImage
-        src="/toiture5.png"
+        src="/toiture5.avif"
         alt="Étanchéité et finitions"
       />
       <p className={styles.p}>
@@ -60,7 +60,7 @@ export default function Menu() {
       <h2 className={styles.h2}>6. Nettoyage du chantier et validation finale</h2>
       <div className={styles.imageWrapper}>
         <SectionImage
-          src="/toiture6.png"
+          src="/toiture6.avif"
           alt="Préparation du chantier"
         />
       </div>
