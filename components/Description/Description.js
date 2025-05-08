@@ -6,8 +6,7 @@ import styles from './description.module.css';
 
 export default function Description() {
  
-  return (
-    
+  return (    
       <section className={styles.description}>
         <div className={styles.box}>
           <h2 className={styles.h2}>
@@ -18,7 +17,6 @@ export default function Description() {
             toiture et l'entretien de votre maison.
           </p>
         </div>
-
         <section className={styles.localisation}>
           <div className={styles.card}>
             <Image          
@@ -34,7 +32,6 @@ export default function Description() {
             <p> Service professionnel pour nettoyer et entretenir votre toiture efficacement et durablement. </p>
             </div>
           </div>       
-
           <div className={styles.card}>
             <Image          
               src="/image17.png"
@@ -46,11 +43,10 @@ export default function Description() {
             />
             <div className={styles.cardTxt}>
             <h3 className={styles.h3}> Isolation des Combles </h3>
-            <p> Isolation des Combles
+            <p> 
             Améliorez votre confort avec notre service d'isolation des combles pour une meilleure efficacité énergétique. </p>
             </div>
           </div>       
-
           <div className={styles.card}>
             <Image          
               src="/image12.jpg"
@@ -62,7 +58,7 @@ export default function Description() {
             />
             <div className={styles.cardTxt}>
             <h3 className={styles.h3}> Protection durable toiture</h3>
-            <p> Traitement Hydrofuge et Anti-Mousse pour une protection durable et un aspect impeccable de votre toiture.</p>
+            <p> Traitement hydrofuge et anti-mousse pour une protection durable et un aspect impeccable de votre toiture.</p>
             </div>
           </div>       
         </section>
