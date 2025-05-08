@@ -37,7 +37,7 @@ export default function Description() {
 
           <div className={styles.card}>
             <Image          
-              src="/image1.jpg"
+              src="/image17.png"
               alt="toiture"
               width={320}
               height={250}
