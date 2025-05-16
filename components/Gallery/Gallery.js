@@ -5,21 +5,34 @@ import styles from './gallery.module.css';
 
 export default function Gallery() {
   const images = [
-    { src: '/image1.avif', alt: 'chantier' },
-    { src: '/image2.avif', alt: 'chantier' },
+    { src: '/image8.avif', alt: 'chantier' },
     { src: '/image3.avif', alt: 'chantier' },
+    { src: '/image3.jpg', alt: 'chantier' },
+    { src: '/image13.avif', alt: 'chantier' },
+    { src: '/image4.jpg', alt: 'chantier' },
+    { src: '/image2.avif', alt: 'chantier' },
     { src: '/image4.avif', alt: 'chantier' },
+    { src: '/image7.avif', alt: 'chantier' },
+    
+    { src: '/image15.avif', alt: 'chantier' },
+    
+
+
+    { src: '/image1.avif', alt: 'chantier' },
+    
+   
+   
     { src: '/image5.avif', alt: 'chantier' },
     { src: '/image6.avif', alt: 'chantier' },
-    { src: '/image7.avif', alt: 'chantier' },
-    { src: '/image8.avif', alt: 'chantier' },
+    
+   
     { src: '/image9.avif', alt: 'chantier' },
     { src: '/image10.avif', alt: 'chantier' },
     { src: '/image11.avif', alt: 'chantier' },
     { src: '/image12.avif', alt: 'chantier' },
-    { src: '/image13.avif', alt: 'chantier' },
+    
     { src: '/image14.avif', alt: 'chantier' },
-    { src: '/image15.avif', alt: 'chantier' },
+    
     { src: '/image16.avif', alt: 'chantier' },
   ];
 
