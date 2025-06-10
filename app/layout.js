@@ -10,7 +10,7 @@ const oswald = Oswald({
 
 export const metadata = {
   title: 'Narbonne Toiture',
-  description: "Narbonne Toiture – Spécialiste de la couverture, rénovation et entretien de toitures à Narbonne et ses environs. Intervention rapide, travail de qualité et conseils personnalisés pour protéger votre habitation.",
+  description: "ORTIZ Rénovation – Spécialiste de la couverture, rénovation et entretien de toitures à Narbonne et ses environs. Intervention rapide, travail de qualité et conseils personnalisés pour protéger votre habitation.",
 };
 
 export default function RootLayout({ children }) {

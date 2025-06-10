@@ -5,10 +5,10 @@ import styles from './map.module.css';
 
 export default function GoogleMap() {
   const address = {
-    name: "Narbonne Toiture",
-    email: "narbonnetoiture@gmail.com",
+    name: "ORTIZ Rénovation",
+    email: "joffrey.ortiz@gmail.com",
     phone: "06 69 99 93 57",
-    fullAddress: "Narbonne et alentours",
+    fullAddress: "Perpignan et alentours",
   };
 
   return (
