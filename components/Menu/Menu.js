@@ -5,9 +5,9 @@ import styles from './menu.module.css'
 export default function Menu() {
   return (
     <section className={styles.container}>
-      <h1 className={styles.title}>Les étapes d’une couverture de toit avec ORTIZ Rénovation</h1>
+      <h1 className={styles.title}>Les étapes d’une couverture de toit avec Narbonne Toiture</h1>
         <p className={styles.intro}>
-          Chez ORTIZ Rénovation, nous mettons tout notre savoir-faire au service de vos projets de 
+          Chez Narbonne Toiture, nous mettons tout notre savoir-faire au service de vos projets de 
           couverture, que ce soit pour une construction neuve ou une rénovation. Chaque chantier est 
           conduit avec sérieux, précision et respect des délais. Découvrez notre méthode de travail.
         </p>
@@ -44,7 +44,7 @@ export default function Menu() {
           Après l'achèvement des travaux, nous nettoyons soigneusement la zone d’intervention. Un contrôle qualité est effectué en votre présence pour valider la bonne réalisation du chantier et vous remettre la garantie décennale.
         </p>
         <p className={styles.intro}>
-          Avec ORTIZ Rénovation, vous choisissez la sécurité, la qualité et la durabilité pour votre toiture. Faites appel à notre équipe pour un résultat à la hauteur de vos attentes.
+          Avec Narbonne Toiture, vous choisissez la sécurité, la qualité et la durabilité pour votre toiture. Faites appel à notre équipe pour un résultat à la hauteur de vos attentes.
         </p>
     </section>
   )

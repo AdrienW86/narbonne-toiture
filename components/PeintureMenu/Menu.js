@@ -5,8 +5,8 @@ import styles from './menu.module.css'
 export default function Menu() {
   return (
     <section className={styles.container}>
-        <h1 className={styles.title}> Les étapes clés d’un chantier de peinture intérieure et extérieure avec ORTIZ Rénovation </h1>
-            <p className={styles.intro}> Chez ORTIZ Rénovation, notre expertise ne s'arrête pas aux toitures. Nous réalisons également vos projets de peinture intérieure et extérieure, pour rénover ou valoriser votre bien. Chaque chantier est pris en charge avec rigueur, savoir-faire et exigence. Découvrez notre méthodologie. </p>
+        <h1 className={styles.title}> Les étapes clés d’un chantier de peinture intérieure et extérieure avec Narbonne Toiture </h1>
+            <p className={styles.intro}> Chez Narbonne Toiture, notre expertise ne s'arrête pas aux toitures. Nous réalisons également vos projets de peinture intérieure et extérieure, pour rénover ou valoriser votre bien. Chaque chantier est pris en charge avec rigueur, savoir-faire et exigence. Découvrez notre méthodologie. </p>
           <SectionImage
                 src="/image15.avif"
                 alt="Analyse des surfaces"
@@ -35,7 +35,7 @@ export default function Menu() {
             
             <p className={styles.p}> Après travaux, nous procédons au nettoyage intégral du chantier : retrait des protections, évacuation des déchets, et remise en état des lieux. La réception du chantier se fait en votre présence pour valider ensemble la qualité de notre intervention. </p>
             
-            <p className={styles.intro}> ORTIZ Rénovation vous garantit une prestation de peinture durable, soignée et respectueuse de votre environnement. Sublimez vos espaces avec des professionnels investis à vos côtés. </p>
+            <p className={styles.intro}> Narbonne Toiture vous garantit une prestation de peinture durable, soignée et respectueuse de votre environnement. Sublimez vos espaces avec des professionnels investis à vos côtés. </p>
     </section>
   )
 }
